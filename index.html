@@ -47,9 +47,7 @@
 	<p><strong>La cuenca de un río es el área territorial cuyas aguas van a dar a una única y principal corriente</strong>. Así, la cuenca del río Chillón está formada por el territorio cuyas aguas se deslizan en dirección a la corriente principal. Los límites de una cuenca es la línea de altas cumbres llamada divisoria de aguas. La cuenca más grande del mundo es la del río Amazonas, con cerca de siete millones de km2.<br />
 	El conjunto de ríos secundarios y cuyas aguas se vierten en otro principal, se llaman afluentes; y el conjunto de afluentes y el río principal conforman un sistema fluvial o red hidrográfica.<br />
 	<img id="rioDos" title="rio origen glacial" src="https://photo620x400.mnstatic.com/e87949d2effedb17b4072a36b1cd4a83/cerro-grande.jpg" alt="rio origen glacial" width="600px"  /></p>
-    <p>
-        &copy;Desarrollado por: <strong>Emiliano Vázquez Banda</strong>
-    </p>
+    <p></p>
 	<!-- Usar CDN de jQuery para utilizar las funciones de la libreria -->
 	<!-- imagenes para reemplazar modificando el atributo src
 		https://futurorenovable.cl/wp-content/uploads/2015/08/rios-agua-img-noticias.masverdedigital-985x600.jpg
@@ -60,11 +58,12 @@
     <script>
         $(document).ready(function(){
              $("h1:first").addClass("titRio");
-             $("span").html("ríos")
+             $("span").text("ríos");
              $("h2").css({"background-color":"lime","text-align":"center"});
              $("#rioUno").attr("src","https://futurorenovable.cl/wp-content/uploads/2015/08/rios-agua-img-noticias.masverdedigital-985x600.jpg");
              $("#rioDos").attr("src","http://awsassets.wwf.es/img/z1c5564_michael_poliza_wwf_webres_81544.jpg");
              $("p:last").addClass("pie");
+             $("p:last").append("&copy;Desarrollado por: <strong>Emiliano Vázquez Banda</strong>");
         });
     </script>
 </body>
