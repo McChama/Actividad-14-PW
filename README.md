@@ -3,3 +3,5 @@ En esta actividad se debe demostrar cómo se puede usar jQuery para modificar el
 
 NOTAS:
 Las funciones ha utilizar para esta actividad son: text, attr, addClass, css y append.
+
+Puedes ver el proyecto en ejecución desde el siguiente link:  https://mcchama.github.io/Actividad-14-PW/.
